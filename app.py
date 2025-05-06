@@ -237,7 +237,7 @@ try:
         if not api_key:
             st.stop()
     
-     client = Groq(api_key=api_key)
+     #client = Groq(api_key=api_key)
 except Exception as e:
     st.error(f"Failed to initialize Groq client: {str(e)}")
     st.stop()
