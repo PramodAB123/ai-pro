@@ -731,7 +731,7 @@ def main():
     # Header section
     st.markdown("""
     <div class="header fade-in">
-        <h1>🎯 AI Resume Optimizer</h1>
+        <h1>🎯 AI Resume Analyzer</h1>
         <p>Optimize your resume for your dream job with AI-powered insights</p>
     </div>
     """, unsafe_allow_html=True)
