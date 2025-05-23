@@ -294,7 +294,7 @@ def get_company_info(url):
 
 # Initialize Groq client
 try:
-    api_key = os.environ.get("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")
+    api_key = os.environ.get("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")
     if not api_key:
         st.warning("Please set your GROQ_API_KEY in the .env file or enter it below")
         api_key = st.text_input("Enter your Groq API key:", type="password")
